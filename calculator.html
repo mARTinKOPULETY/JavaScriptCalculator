@@ -1,0 +1,27 @@
+<!--This code is based on a training code by www.itnetwork.cz.
+    The original code can only adds two numbers together. 
+    Without no choice of operation. I added select with options of operation. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Martin Kopuletý" /> 
+    <title>JavaScript Calculator</title>
+    <script src="js/JSCalculator.js"></script>
+    <link rel="stylesheet" href="css/CSSCalculator.css" type="text/css">
+</head>
+<body>
+   
+    <h1>JavaScript Calculator</h1>
+
+    <input type="text" id="number1" size="6"/>
+    <select id="operation" onchange="operation()" >
+        <option>+</option>
+        <option>-</option>
+        <option>/</option>
+        <option>x</option>
+    </select>
+    <input type="text" id="number2" size="6"/> <button id="button" >Result</button>
+
+</body>
+</html>
